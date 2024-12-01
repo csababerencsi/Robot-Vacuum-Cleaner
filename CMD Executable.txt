@@ -1,0 +1,3 @@
+mlagents-learn .\training_parameters_01.yaml --run-id="VacuumCleaner01"
+
+tensorboard --logdir results --reload_multifile True

@@ -1,0 +1,38 @@
+{
+    "VacuumCleaner": {
+        "checkpoints": [
+            {
+                "steps": 29079,
+                "file_path": "results\\VacuumCleaner01\\VacuumCleaner\\VacuumCleaner-29079.onnx",
+                "reward": -22.107500048244702,
+                "creation_time": 1733008595.4290822,
+                "auxillary_file_paths": [
+                    "results\\VacuumCleaner01\\VacuumCleaner\\VacuumCleaner-29079.pt"
+                ]
+            },
+            {
+                "steps": 132713,
+                "file_path": "results\\VacuumCleaner01\\VacuumCleaner\\VacuumCleaner-132713.onnx",
+                "reward": -23.654571860177175,
+                "creation_time": 1733012124.4242542,
+                "auxillary_file_paths": [
+                    "results\\VacuumCleaner01\\VacuumCleaner\\VacuumCleaner-132713.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 132713,
+            "file_path": "results\\VacuumCleaner01\\VacuumCleaner.onnx",
+            "reward": -23.654571860177175,
+            "creation_time": 1733012124.4242542,
+            "auxillary_file_paths": [
+                "results\\VacuumCleaner01\\VacuumCleaner\\VacuumCleaner-132713.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}

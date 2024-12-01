@@ -1,0 +1,19 @@
+behaviors:
+  VacuumCleaner:
+    trainer_type: ppo
+    time_horizon: 256
+    max_steps: 1e7
+    hyperparameters:
+      learning_rate: 1e-4
+      batch_size: 2048
+      buffer_size: 20000
+      num_epoch: 3
+    network_settings:
+      num_layers: 3
+      hidden_units: 512
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+    summary_freq: 25000
+    #threaded: true

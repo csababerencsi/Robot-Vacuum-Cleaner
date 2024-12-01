@@ -6,7 +6,6 @@ using Unity.MLAgents.Sensors;
 using UnityEngine;
 using static UnityEngine.ParticleSystem;
 using System.Reflection;
-using Grpc.Core;
 
 
 public class AgentController : Agent
